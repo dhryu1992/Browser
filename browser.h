@@ -3,10 +3,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <cstdio>
+#include <string>
 
 using namespace std;
 
-void openFile(const char* filename, const char* mode);
+char* openFile(const char* filename);
+
 
 
 
